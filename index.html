@@ -3,13 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<title>Programaci&oacute;n Web 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 
 	<div class="navbar-wrapper">
-		<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar navbar-inverse navbar-fixed-top  navbar-responsive-collapse collapse">
 			<div class="navbar-inner">
 				<div class="container">
 					<!-- Responsive navbar -->
@@ -19,7 +20,14 @@
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
-							<li><a title="Inicio" href="index.html">Inicio</a></li>							
+							<li class="active"><a title="Inicio" href="#">Inicio</a></li>	
+							<li class="dropdown"><a title="Fases Proyecto Web" class="dropdown-toggle" data-toggle="dropdown" href="#">Fases Proyecto Web</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Planeación y Análisis</a></li>
+									<li><a href="#">Diseño y Construcción</a></li>
+									<li><a href="#">Implementación y Mantenimiento</a></li>
+								</ul>
+							</li>							
 							<li><a title="Autores" href="autores.html">Autores</a></li>
 						</ul>
 					</nav>
@@ -39,7 +47,7 @@
 		</header>
 	</div>
 
-	<section id="contact" class="section orange">
+	<section id="objetivos" class="section orange">
 		<div class="container">
 			<h4>Objetivos del OVI</h4>
 			<p>
@@ -60,7 +68,7 @@
 		</div>
 	</section>
 
-	<section id="blog" class="section">
+	<section id="fases" class="section">		
 		<div class="container">
 			<h4>Fases de un Proyecto Web</h4>
 			<!-- Three columns -->
@@ -69,18 +77,13 @@
 					<div class="home-post">
 						<div class="post-image">
 							<img class="max-img" src="img/blog/img1.jpg" alt="" />
-						</div>
-						<div class="post-meta">
-							<i class="icon-file icon-2x"></i>
-							<span class="date">June 19, 2013</span>
-							<span class="tags"><a href="#">Design</a>, <a href="#">Blog</a></span>
-						</div>
+						</div>						
 						<div class="entry-content">
-							<h5><strong><a href="#">Fase de Planeaci&oacute;n y An&aacute;lisis</a></strong></h5>
+							<h5><strong><a href="#">Fase de Planeación y Análisis</a></strong></h5>
 							<p>
 								Dar a conocer las diferentes herramientas y el uso de las mismas, que permitan gestionar un proyecto de la manera adecuada, partiendo de la selección de un editor de código fuente y las herramientas que permitan llevar un control de versiones del proyecto. &hellip;
 							</p>
-							<a href="#" class="more">Leer m&aacute;s</a>
+							<a href="#" class="more">Leer más</a>
 						</div>
 					</div>
 				</div>
@@ -88,19 +91,14 @@
 					<div class="home-post">
 						<div class="post-image">
 							<img class="max-img" src="img/blog/img2.jpg" alt="" />
-						</div>
-						<div class="post-meta">
-							<i class="icon-file icon-2x"></i>
-							<span class="date">June 19, 2013</span>
-							<span class="tags"><a href="#">Design</a>, <a href="#">News</a></span>
-						</div>
+						</div>						
 						<div class="entry-content">
-							<h5><strong><a href="#">Fase de Dise&ntilde;o y Construcci&oacute;n</a></strong></h5>
+							<h5><strong><a href="#">Fase de Diseño y Construcción</a></strong></h5>
 							<p>
-								Ense&ntilde;ar las diferentes herramientas con las que se pueden crear bosquejos (Mockups), para tener un panorama de cómo va a quedar estructurada a nivel visual el proyecto web y enseñar a realizar la maquetación con html5 y css3. &hellip;
+								Enseñar las diferentes herramientas con las que se pueden crear bosquejos (Mockups), para tener un panorama de cómo va a quedar estructurada a nivel visual el proyecto web y enseñar a realizar la maquetación con html5 y css3. &hellip;
 							</p>
 							<br /><br /><br />
-							<a href="#" class="more">Leer m&aacute;s</a>
+							<a href="#" class="more">Leer más</a>
 						</div>
 					</div>
 				</div>
@@ -108,26 +106,39 @@
 					<div class="home-post">
 						<div class="post-image">
 							<img class="max-img" src="img/blog/img3.jpg" alt="" />
-						</div>
-						<div class="post-meta">
-							<i class="icon-file icon-2x"></i>
-							<span class="date">June 22, 2013</span>
-							<span class="tags"><a href="#">Design</a>, <a href="#">Tips</a></span>
-						</div>
+						</div>						
 						<div class="entry-content">
 							<h5><strong><a href="#">Fase de Implementación y Mantenimiento </a></strong></h5>
 							<p>
 								Conocer herramientas que permitan realizar una evaluación integral y estructurada del sitio web con el fin de mejorar e incrementar el rendimiento, accesibilidad y compatibilidad del proyecto web. &hellip;
 							</p>
 							<br /><br /><br />
-							<a href="#" class="more">Leer m&aacute;s</a>
+							<a href="#" class="more">Leer más</a>
 						</div>
 					</div>
 				</div>				
 			</div>
 			<div class="blankdivider30"></div>			
-		</div>
+		</div>		
 	</section>
+
+
+	<section id="visitantes" class="section orange2">
+		<div class="container">
+			<div class="row">
+				<div class="span8">
+					<h4><i class="icon-user"></i> Visitante Número:
+						<a href="http://www.reliablecounter.com" target="_blank"><img src="http://www.reliablecounter.com/count.php?page=https://angelyhenao.github.io/siteunad&digit=style/plain/1/&reloads=0" alt="" title="" border="0"></a><br /><a href="http://cuerpoaldente.com" target="_blank" style="font-family: Geneva, Arial; font-size: 9px; color: #330010; text-decoration: none;"></a>
+					</h4>
+				</div>				
+				<div class="span4">		
+					<aside>
+						<a class="twitter-timeline" data-lang="es" data-width="300" data-height="280" href="https://twitter.com/universidadunad?lang=es">Tweets by TwitterDev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+					</aside>
+				</div>
+			</div>					
+		</div>
+	</section>	
 	
 	<footer>
 		<div class="container">
@@ -147,10 +158,15 @@
 			</div>
 		</div>
 	</footer>
-
-	<script src="js/jquery.js"></script>	
-	<script src="js/jquery.nav.js"></script>	
-	<script src="js/bootstrap.js"></script>
+	
+	<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/jquery.localScroll.js"></script>
+	<script src="js/bootstrap.js"></script>		
+	<script src="js/animate.js"></script>
+	<script src="js/custom.js"></script>
 </body>
 
 </html>
