@@ -453,6 +453,13 @@ section.inner {
 	color: #f7f7f7;
 }
 
+.section.orange2 h4 {
+	color: #fcfcfc;
+}
+.section.orange2 p {
+	color: #f7f7f7;
+}
+
 
 /* === section spacer === */
 
@@ -474,6 +481,10 @@ section.spacer {
 }
 .spacer.orange,.section.orange {
 	background:#F2B80D;
+}
+
+.spacer.orange,.section.orange2 {
+	background:#FF5900;
 }
 
 section.spacer.bg2 {
@@ -747,7 +758,7 @@ section#services.section.orange .service-box:hover {
 
 /* === section blog === */
 
-section#blog {
+section#fases {
 	background: #f2f2f2;
 }
 
