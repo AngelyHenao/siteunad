@@ -272,9 +272,9 @@ h2.pagetitle {
 .navbar .brand a {
 	padding: 0;
 	color: #fff;
-	font-size: 1.15em;
+	font-size: 1em;
 	margin-left: 0;
-	font-weight: 300;
+	font-weight: 400;
 	text-transform:uppercase;
 }
 .navbar .brand a:hover {
