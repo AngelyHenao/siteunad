@@ -1,0 +1,12 @@
+body {
+	background: #f2f2f2;
+}
+
+.titulo{
+	margin-left: 10px;
+}
+
+.card-header{
+	height: 50px !important;
+	background-color: !important;
+}
