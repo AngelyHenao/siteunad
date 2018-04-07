@@ -1,210 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<meta charset="utf-8">
-<title>Programaci&oacute;n Web 2</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="css/bootstrap4/bootstrap.min.css" rel="stylesheet">
-	<link href="css/fase1.css" rel="stylesheet">
-	
-
-
-<script src="js/jquery/jquery-3.2.1.slim.min.js"></script>
-<script src="js/popper/popper.min.js"></script>
-<script src="js/bootstrap-4/bootstrap.min.js"></script>
-
+  <meta charset="utf-8">
+  <title>Programaci&oacute;n Web 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <link href="css/style.css" rel="stylesheet">
 </head>
-<header class="navbar navbar-expand navbar-dark flex-column flex-md-row bd-navbar" style="background-color: #006680;">
-  <a>
-  	<p class="h4" style="color: #F2B80D">Programaci&oacute;n Web 2</p>
-  	
-</a>
-
-  <div class="navbar-nav-scroll items">
-    <ul class="navbar-nav bd-navbar-nav flex-row">
-      <li class="nav-item">
-        <a class="nav-link " href="index.html" ">Inicio</a>
-      </li>
-       <li class="nav-item dropdown">
-      	<a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Material lectura O.V.I
-      </a>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-	        <a class="dropdown-item active" href="fase1.html">Fase Planeación y Análisis</a>
-	        <a class="dropdown-item" href="#">Fase Diseño y Construcción</a>
-	        <a class="dropdown-item" href="#">Fase Implementación y Mantenimiento</a>
-      </div>
-    </li>
-       <li class="nav-item dropdown">
-      	<a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Material Multimedia O.V.I
-      </a>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-	        <a class="dropdown-item " href="#">Multimedia 1</a>
-	        <a class="dropdown-item" href="#">Multimedia 2</a>
-      </div>
-    </li>
-       <li class="nav-item dropdown">
-      	<a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Actividades
-      </a>
-        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-	        <a class="dropdown-item " href="#">Actividades 1</a>
-	        <a class="dropdown-item" href="#">Actividades 2</a>
-	        <a class="dropdown-item" href="#">Actividades 3</a>
-	        <a class="dropdown-item" href="#">Actividades 4</a>
-	        <a class="dropdown-item" href="#">Actividades 5</a>
-	        <a class="dropdown-item" href="#">Actividades 6</a>
-      </div>
-    </li>
-    </ul>
-  </div>
-
-  <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
-
-  </ul>
-
-  <a class="btn btn-bd-download d-none d-lg-inline-block mb-3 mb-md-0 ml-md-3" href="autores.html">Autores</a>
-</header>
 <body>
-<div class="container">
-		<br>
-	<h1 class="titulo">Planeación y Análisis </h1>
-	<hr style="border-color: orange;">
-	<br>
+
+  <div class="navbar-wrapper">
+    <div class="navbar navbar-inverse navbar-fixed-top  navbar-responsive-collapse collapse">
+      <div class="navbar-inner">
+        <div class="container">
+          <!-- Responsive navbar -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+        </a>
+          <h4 class="brand"><a href="index.html">Programación Web 2</a></h4>
+          <!-- navigation -->
+          <nav class="pull-right nav-collapse collapse">
+            <ul id="menu-main" class="nav">
+              <li><a title="Inicio" href="index.html">Inicio</a></li> 
+              <li class="dropdown"><a title="Material Lectura O.V.I" class="dropdown-toggle" data-toggle="dropdown" href="#">Material Lectura O.V.I <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li class="active"><a href="#">Fase Planeación y Análisis</a></li>
+                  <li><a href="#">Fase Diseño y Construcción</a></li>
+                  <li><a href="#">Fase Implementación y Mantenimiento</a></li>
+                </ul>
+              </li> 
+              <li class="dropdown"><a title="Material Multimedia O.V.I" class="dropdown-toggle" data-toggle="dropdown" href="#">Material Multimedia O.V.I <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Multimedia 1</a></li>
+                  <li><a href="#">Multimedia 2</a></li>                 
+                </ul>
+              </li>
+              <li class="dropdown"><a title="Actividades" class="dropdown-toggle" data-toggle="dropdown" href="#">Actividades <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Actividad 1</a></li>
+                  <li><a href="#">Actividad 2</a></li>  
+                  <li><a href="#">Actividad 3</a></li>
+                  <li><a href="#">Actividad 4</a></li>  
+                  <li><a href="#">Actividad 5</a></li>
+                  <li><a href="#">Actividad 6</a></li>                  
+                </ul>
+              </li>           
+              <li><a title="Autores" href="autores.html">Autores</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="fases" class="section">    
+      <div class="container">    
+          <h4>Planeación y Análisis </h4>
+          <hr style="border-color: #F2B80D;">
+          <div class="row">
+              <div class="span6">
+                  <article  class="entry-content">
+                      <h5><strong>Control de Versiones</strong></h5>
+                      <p class="card-text">Hoy en día una de las preocupaciones de un equipo de desarrollo es controlar los cambios realizados en el código fuente de algún proyecto que estén realizando, frecuentemente este control lo realizan realizando copias de seguridad del proyecto a medida que se va avanzando en el mismo. Sin embrago, existen herramientas que nos permiten realizar esta tarea de manera más óptima, rápida y más confiables, son los denominados sistemas de control de versiones.</p>
+                    <p class="card-text">Un sistema de control de versiones (Control Version System, CVS) detecta automáticamente los cambios que se realizan  en los ficheros de la solución y guarda su estado en una base de datos. Así el programador es capaz de definir “fotografías del proyecto”, las cuales puede recuperar en el futuro de ser necesario.</p>
+                    <p class="card-text">Además de almacenar el código fuente, los CVS permiten que diversas personas trabajen en el mismo proyecto, e incluso en los mismos ficheros. Hoy en día, los proyectos de software, especialmente si son relativamente grandes, dependen de la colaboración de varios miembros de un mismo equipo de desarrollo.</p>
+                    <p>
+                      La mayoría de los CVS incluyen herramientas para gestionar los conflictos que se producen al manipular concurrentemente los mismos archivos. Es por ello que el control de versiones se hace imprescindible al trabajar en equipo.
+                    </p>
+                     <iframe width="470" height="315" id="video2"  src="https://www.youtube.com/watch?v=PPluY5K4nIg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+                       <p class="copyright">
+                         Perdomo, M. [Mauricio Perdomo Vargas]. (2016, Marzo 1). VIDEOTUTORIAL GIT No. 2 INSTALACIÓN Y OPERACIONES BÁSICAS  [Archivo de video]. Recuperado de <a href="https://www.youtube.com/watch?v=PPluY5K4nIg" target="_blank">https://www.youtube.com/watch?v=PPluY5K4nIg</a>
+                       </p>
+                          
+                  </article>
+              </div>
+              <div class="span6">
+                  <article  class="entry-content">
+                    <h5><strong>Editores de Código</strong></h5>
+                      <p class="card-text ">
+                        Un editor de páginas web es una aplicación diseñada con el fin de facilitar la creación y edición de documentos HTML o XHTML. Su complejidad puede variar desde la de un simple editor de texto plano, entornos WYSIWYG, hasta editores WYSIWYM
+
+                      </p>
+                      <p class="card-text">
+                      Hoy en día editores que nos permitan administrar nuestro código fuente hay muchos, unos de paga, otros gratuitos, cada uno con sus diferentes ventajas y desventajas, ya depende de los gustos de cada programador para escoger la de su preferencia.
+                      </p>
+                      <p class="card-text">
+                      A continuación mostraremos algunas de las alternativas más reconocidas de editores de código fuente.
+                      </p>                     
+                      <iframe width="470" height="315" id="video1" src="https://www.youtube.com/watch?v=-gQXtGL5vv0" frameborder="0"  allowfullscreen></iframe> 
+                       <p class="copyright">
+                         Perdomo, M. [Mauricio Perdomo Vargas]. (2017, Septiembre 30). SESIÓN EN VIVO 2 - INTRODUCCIÓN AL DISEÑO WEB - EDITORES DE CÓDIGO Y APLICACIONES DE APOYO  [Archivo de video]. Recuperado de <a href="https://www.youtube.com/watch?v=-gQXtGL5vv0" target="_blank">https://www.youtube.com/watch?v=-gQXtGL5vv0</a>
+                       </p>
+                      
+                          
+                  </article> 
+              </div>
+          </div>          
+      </div>    
+  </section>
+
   
-
-   <div class="card">
-	  <div class="card-header">
-			<ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
-		  <li class="nav-item">
-		    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Editores de Código</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Control de Versiones</a>
-		  </li>
-		  <li class="nav-item">
-		    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Otro</a>
-		  </li>
-		</ul>
-	  </div>
-	  <div class="card-body">
-	 <div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-  <h5 class="card-title">Editor de código fuente</h5>
-  	<p class="card-text ">
-  		Un editor de páginas web es una aplicación diseñada con el fin de facilitar la creación y edición de documentos HTML o XHTML. Su complejidad puede variar desde la de un simple editor de texto plano, entornos WYSIWYG, hasta editores WYSIWYM
-
-  	</p>
-  	<p class="card-text">
-Hoy en día editores que nos permitan administrar nuestro código fuente hay muchos, unos de paga, otros gratuitos, cada uno con sus diferentes ventajas y desventajas, ya depende de los gustos de cada programador para escoger la de su preferencia.
-</p>
-<p class="card-text">
-A continuación mostraremos algunas de las alternativas más reconocidas de editores de código fuente.
-</p>
-
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#editores">
-  Ver Video
-</button>
-<br>
-<table class="table ">
-  <thead class="theader-orange">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Editor de código fuente</th>
-      <th scope="col">Sitio Web Oficial</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Sublime Text</td>
-      <td>Otto</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Visual studio code</td>
-      <td>Thornton</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>Atom</td>
-      <td>the Bird</td>
-    </tr>
-  </tbody>
-</table>
-  </div>
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-  	  <h5 class="card-title">Controlador de versiones</h5>
-  	<p class="card-text">Hoy en día una de las preocupaciones de un equipo de desarrollo es controlar los cambios realizados en el código fuente de algún proyecto que estén realizando, frecuentemente este control lo realizan realizando copias de seguridad del proyecto a medida que se va avanzando en el mismo. Sin embrago, existen herramientas que nos permiten realizar esta tarea de manera más óptima, rápida y más confiables, son los denominados sistemas de control de versiones.</p>
-  	<p class="card-text">Un sistema de control de versiones (Control Version System, CVS) detecta automáticamente los cambios que se realizan  en los ficheros de la solución y guarda su estado en una base de datos. Así el programador es capaz de definir “fotografías del proyecto”, las cuales puede recuperar en el futuro de ser necesario.</p>
-  	<p class="card-text">Además de almacenar el código fuente, los CVS permiten que diversas personas trabajen en el mismo proyecto, e incluso en los mismos ficheros. Hoy en día, los proyectos de software, especialmente si son relativamente grandes, dependen de la colaboración de varios miembros de un mismo equipo de desarrollo.</p>
-  	<p>
-  		La mayoría de los CVS incluyen herramientas para gestionar los conflictos que se producen al manipular concurrentemente los mismos archivos. Es por ello que el control de versiones se hace imprescindible al trabajar en equipo.
-  	</p>
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#git">
-  Ver Video
-</button>
-
-  </div>
-  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-</div>	  </div>
-</div>
-</div>
-<br>
-<br>
-		<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
-
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="span6 offset3">
+          <ul class="social-networks">
+            <li><a href="https://www.instagram.com/universidadunad/?hl=es-la" target="_blank"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
+            <li><a href="https://twitter.com/universidadunad?lang=es"  target="_blank"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>             
+          </ul>
+          <p class="copyright">
+            &copy; Programaci&oacute;n Web 2. Reservados todos los derechos.
+            <div class="credits">             
+              <a href="http://www.unad.edu.co/"  target="_blank">Universidad Abierta y a Distancia (UNAD)</a> 
+            </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery.nav.js"></script>
+  <script src="js/jquery.localScroll.js"></script>
+  <script src="js/bootstrap.js"></script>   
+  <script src="js/animate.js"></script>
+  <script src="js/custom.js"></script>
 </body>
+
 </html>
-<!-- Modal -->
-<div class="modal fade" id="git" tabindex="-1" role="dialog" aria-labelledby="gitModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="gitModalLabel">Instalación de Git</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <iframe width="470" height="315" src="https://www.youtube.com/embed/PPluY5K4nIg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="modal fade" id="editores" tabindex="-1" role="dialog" aria-labelledby="editoresModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="editoresModalLabel">Editores de Código Fuente</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-       <iframe width="470" height="315" src="https://www.youtube.com/embed/-gQXtGL5vv0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-</div>
-
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="span6 offset3">
-					<ul class="social-networks">
-						<li><a href="https://www.instagram.com/universidadunad/?hl=es-la" target="_blank"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
-						<li><a href="https://twitter.com/universidadunad?lang=es"  target="_blank"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>							
-					</ul>
-					<p class="copyright">
-						&copy; Programaci&oacute;n Web 2. Reservados todos los derechos.
-						<div class="credits">							
-							<a href="http://www.unad.edu.co/"  target="_blank">Universidad Abierta y a Distancia (UNAD)</a> 
-						</div>
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
