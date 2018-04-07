@@ -27,19 +27,8 @@ CONTENTS:
 @import url('bootstrap.css');
 /* bootstrap responsive */
 @import url('bootstrap-responsive.css');
-/* prettyPhoto */
-@import url('prettyPhoto.css');
-/* flexslider */
-@import url('flexslider.css');
-
 /* font awesome */
 @import url('font-awesome.css');
-/* overwrite */
-@import url('overwrite.css');
-/* animation */
-@import url('animate.css');
-
-
 
 /* =========================================================
 01. General
@@ -261,8 +250,7 @@ h2.pagetitle {
 ============================================================ */
 
 .navbar-fixed-top .container {
-/* Uncomment to make nav expand full width */
- /*	width: auto; */
+
 }
 .navbar .brand {
 	margin-left:0;
@@ -1695,11 +1683,7 @@ i.icon-white {
  margin-right: auto;
 }
 		
-/* Contact Form */
-	#contact-form {
-		overflow: hidden;
-	}
-	#contact-form input[type=submit] {
-		width: 100%;
-	}
+
+p {
+	text-align: justify;
 }
