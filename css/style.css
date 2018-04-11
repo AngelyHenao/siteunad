@@ -420,7 +420,21 @@ header .logo {
 
 section.section {
 	padding: 100px 0 80px;
+
 }
+
+section.section-fase1 {
+	padding: 37px 0 80px;
+}
+
+section.section-fase1 h4{
+		text-align: center;
+	margin-bottom: 40px;
+	font-size: 46px;
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+
 section.section h4 {
 	text-align: center;
 	margin-bottom: 40px;
@@ -1644,6 +1658,8 @@ i.icon-white {
  section.section {
  padding: 1em 0;
 }
+
+
 
  #works .container {
  top: 0 !important;
